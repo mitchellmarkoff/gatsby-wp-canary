@@ -38,7 +38,6 @@ if (process.env.PANTHEON_ENVIRONMENT_URL) {
 		process.env.IS_LIVE_ENVIRONMENT = true
 	}
 }
-
 console.log('IS LIVE ', process.env.IS_LIVE_ENVIRONMENT)
 
 module.exports = {
