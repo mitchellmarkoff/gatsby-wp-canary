@@ -39,6 +39,9 @@ if (process.env.PANTHEON_ENVIRONMENT_URL) {
 	}
 }
 console.log('IS LIVE ', process.env.IS_LIVE_ENVIRONMENT)
+console.log('CONFIG');
+console.log(process.env.PANTHEON_ENVIRONMENT);
+console.log(process.env.PANTHEON_ENVIRONMENT_URL);
 
 module.exports = {
 	...(injectedOptions && injectedOptions),
